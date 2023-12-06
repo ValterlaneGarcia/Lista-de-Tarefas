@@ -1,0 +1,79 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.topo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(8, 8, 7);
+    height: 10%;
+    width: 100%;
+    color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tarefas {
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    width: 100vw;
+    height: 100vh;
+}
+
+#adicionar {
+    background-color: rgb(57, 57, 65);
+    width: 100%;
+    height: 60px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+#adicionar  input {
+    width: 400px;
+    margin-right: 10px;
+}
+
+#adicionar  input::placeholder {
+   color: black;
+   text-align: center;
+}
+
+
+.list {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    padding: 10px;
+}
+
+span {
+    display: flex;
+}
+
+.atribuir {
+    padding: 5px;
+}
+
+.deletar {
+    margin-left: 10px;
+    padding: 5px;
+}
