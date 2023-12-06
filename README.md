@@ -1,0 +1,2 @@
+# Lista de Tarefas
+ A Lista de Tarefas em JavaScript é uma aplicação web minimalista que oferece uma interface intuitiva para adicionar, marcar como concluídas e excluir tarefas. Os usuários podem facilmente adicionar novas tarefas digitando o texto desejado no campo de entrada e clicando no botão "+". As tarefas adicionadas são exibidas em uma lista com a opção de marcar como concluídas ao selecionar a caixa de seleção ao lado de cada item.
